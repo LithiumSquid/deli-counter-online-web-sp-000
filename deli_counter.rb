@@ -2,7 +2,8 @@ katz_deli = []
 
 def line(katz_deli, index)
   if katz_deli.length >= 1
-    
+    cust_list = []
+    katz_deli.each_with_index.map{|name, idx + 1| cust_list << "#{idx}. #{name}"}
     print "The line is currently:" + katz_deli 
   else if katz_deli.length = 0
     puts "The line is currently empty."
