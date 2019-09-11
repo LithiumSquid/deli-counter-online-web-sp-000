@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(katz_deli, index)
+def line(katz_deli)
   if katz_deli.length >= 1
     cust_list = []
     katz_deli.each_with_index.map{|name, idx| cust_list << "(#{idx}. #{name}"}
